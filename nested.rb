@@ -105,7 +105,8 @@ def changing_alan
     }
   programmer_hash[:yukihiro_matsumoto]
     programmer_hash[:yukihiro_matsumoto][:known_for]
-      programmer_hash[:yukihiro_matsumoto][:languages]
+      programmer_hash[:yukihiro_matsumoto][:known_for]
+    programmer_hash[:yukihiro_matsumoto][:languages]
 end
 
 def adding_to_dennis
