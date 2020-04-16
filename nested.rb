@@ -115,7 +115,7 @@ def changing_alan
     programmer_hash[:yukihiro_matsumoto][:languages]
       programmer_hash[:yukihiro_matsumoto][:languages] = "LISP"
       programmer_hash[:yukihiro_matsumoto][:languages] << "C"
-  programmer_hash[:alan_kay][:known_for] = "GUI"
+    programmer_hash[:alan_kay][:known_for] = "GUI"
   programmer_hash
 end
 
@@ -138,5 +138,12 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-
+  programmer_hash[:yukihiro_matsumoto] = Hash.new
+    programmer_hash[:yukihiro_matsumoto][:known_for]
+      programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+    programmer_hash[:yukihiro_matsumoto][:languages]
+      programmer_hash[:yukihiro_matsumoto][:languages] = "LISP"
+      programmer_hash[:yukihiro_matsumoto][:languages] << "C"
+    programmer_hash[:alan_kay][:known_for] = "GUI"
+  programmer_hash
 end
