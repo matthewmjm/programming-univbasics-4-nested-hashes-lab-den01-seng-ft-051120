@@ -81,7 +81,11 @@ def adding_matz
         :languages => ["C"]
       }
     }
-  programmer_hash[]
+  programmer_hash[:yukihiro_matsumoto]
+    programmer_hash[:yukihiro_matsumoto][:known_for]
+      programmer_hash[:yukihiro_matsumoto][:known_for]
+    programmer_hash[:yukihiro_matsumoto][:languages]
+      programmer_hash[:yukihiro_matsumoto][:languages]
 end
 
 def changing_alan
@@ -103,11 +107,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-  programmer_hash[:yukihiro_matsumoto]
-    programmer_hash[:yukihiro_matsumoto][:known_for]
-      programmer_hash[:yukihiro_matsumoto][:known_for]
-    programmer_hash[:yukihiro_matsumoto][:languages]
-      programmer_hash[:yukihiro_matsumoto][:languages]
+
 end
 
 def adding_to_dennis
